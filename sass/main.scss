@@ -1,0 +1,24 @@
+
+
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+
+.btn-close {
+    position : absolute;
+}
+
+$custom-theme-colors: (
+
+    "altprimary": #fff
+
+);
+
+$modal-padding: 0rem;
+
+
+
+$theme-colors: map-merge($custom-theme-colors,$theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
